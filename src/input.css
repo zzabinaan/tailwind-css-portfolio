@@ -16,4 +16,8 @@
   .about-content {
     width: 26rem;
   }
+
+  .msg-text {
+    width: 30rem;
+  }
 }
