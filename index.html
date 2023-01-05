@@ -20,6 +20,34 @@
   </head>
 
   <body class="bg-background">
+    <header class="bg-background fixed top-0 left-0 w-full flex items-center z-10 shadow-md ">
+      <div class="content w-full  font-poppins text-primary ">
+        <div class="flex item-center justify-between relative  px-4 py-2 md:px-8 md:py-4">
+          <div class="p-0">
+            <a href="#home" class="font-bold block text-2xl md:text-5xl">Zz.</a>
+          </div>
+          <div class="flex items-center">
+            <button id="menu-bar" name="menu-bar" type="button" class="md:hidden"><i class="fa-solid fa-bars text-xl opacity-100"></i></button>
+
+            <nav id="nav-menu" class="hidden md:block md:static md:max-w-full text-base md:text-lg  absolute py-3  bg-background md:bg-transparent md:shadow-none shadow-lg  max-w-[150px] w-full rounded-sm right-6 top-10 md:px-5 md:py-2  ">
+              <ul class="block md:flex">
+                <li class="group opacity-75 hover:opacity-100 px-4"><a href="#projects" class="flex py-1 ">Projects</a></li> 
+                
+                <li class="group opacity-75 hover:opacity-100 px-4"><a href="#about" class="flex py-1 ">About</a></li> 
+                
+                <li class="group opacity-75 hover:opacity-100 px-4"><a href="#skill-set" class="flex py-1 ">Skills</a></li> 
+
+                <li class="group opacity-75 hover:opacity-100 px-4"><a href="#experiences" class="flex py-1 ">Experience</a></li> 
+
+                <li class="group opacity-75 hover:opacity-100 px-4"><a href="#message" class=" flex py-1 md:bg-primary md:text-background rounded-md md:border md:border-primary md:px-4 md:hover:bg-background md:hover:text-primary ">Contacts</a></li> 
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
     <!-- HERO -->
     <section id="home" class="pt-40 md:pt-56">
       <div class="contents">
@@ -38,6 +66,7 @@
               projects—a hardworking person with hard willing to explore the new
               things.
             </p>
+            
             <div class="flex flex-wrap justify-center gap-3 mt-8 md:gap-6">
               <a
                 href="#projects"
@@ -57,98 +86,108 @@
     <!-- end of HERO -->
 
     <!-- projects -->
-    <section id="projects"></section>
-    <div class="content pt-48">
-      <div class="flex flex-wrap justify-center mx-4  ">
-        <h3 class="font-bold text-xl pl-3 py-2 mb-4 md:text-2xl underline">
+    <section id="projects">
+      <div class="content mt-28 pt-20 text-primary">
+        <h3
+          class="font-bold text-xl pl-3 md:text-2xl underline text-center"
+        >
           PROJECTS
         </h3>
-
-        <!-- umkmverse -->
-        <div
-          class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden"
-        >
-          <div>
-            <img src="./dist/img/cover-umkmverse.png" alt="" />
+        <div class="flex flex-wrap justify-center mx-4 md:gap-6">
+          <!-- umkmverse -->
+          <div
+            class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden max-w-md mt-4 md:mt-12 md:shadow-xl "
+          >
+            <div>
+              <img src="./dist/img/cover-umkmverse.png" alt="cover-umkmverse" />
+            </div>
+            <div class="px-5 py-4 md:px-10 ">
+              <h4 class="text-lg font-extrabold py-1 md:py-2 md:text-xl ">UMKMVERSE</h4>
+              <p class="text-sm text-justify pb-2 md:pb-4 md:text-base">
+                Website-based virtual ecosystem for UMKM's to track the quantity and quality of UMKM and help accelerate the evolution of UMKM by presenting events, courses, and assistance aimed at UMKM
+                <span class="italic"> (Usaha Mikro Kecil Menengah) </span> in
+                Indonesia, precisely in Surabaya.
+              </p>
+              <div class="flex flex-wrap gap-1 text-xs py-2 font-bold md:text-sm md:gap-2 ">
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
+                >
+                  Laravel
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
+                >
+                  PHP
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
+                >
+                  React Js
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
+                >
+                  Tailwindcss
+                </h6>
+              </div>
+            </div>
           </div>
-          <div class="px-5 py-4">
-            <h4 class="text-lg font-extrabold py-1">UMKMVERSE</h4>
-            <p class="text-sm text-justify pb-2">
-              Virtual website-based ecosystem for UMKM's to help accelerate the
-              evolution of UMKM by presenting events, courses, and mentoring
-              aimed at UMKM
-              <span class="italic"> (Usaha Mikro Kecil Menengah) </span> in
-              Indonesia, precisely in Surabaya.
-            </p>
-            <div class="flex flex-wrap gap-1 text-xs py-2 font-bold">
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
-              >
-                Laravel
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
-              >
-                PHP
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
-              >
-                React Js
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
-              >
-                Tailwindcss
-              </h6>
+
+          <!-- Urievent -->
+          <div
+            class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden mt-12 max-w-md  md:shadow-xl"
+       m: shadow-xl    >
+            <div>
+              <img src="./dist/img/cover-urievent.png" alt="cover-urievent" />
+            </div>
+            <div class="px-5 py-4 md:px-10  ">
+              <h4 class="text-lg font-extrabold py-1 md:py-2 md:text-xl ">URIEVENT</h4>
+              <p class="text-sm text-justify pb-2 md:pb-4 md:text-base">
+                Web-based information center for event service providers. We
+                built this website to make it easier for for-profit and
+                non-profit organizations to find event services such as event
+                equipment vendors, media partners, venues, and sponsorships.
+              </p>
+              <div class="flex flex-wrap gap-1 text-xs py-2 font-bold md:text-sm md:gap-2">
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
+                >
+                  CodeIgniter 4
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
+                >
+                  PHP
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
+                >
+                  Bootstrap
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
+                >
+                  Javascript
+                </h6>
+                <h6
+                  class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
+                >
+                  css
+                </h6>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Urievent -->
-        <div
-          class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden mt-12 "
-        >
-          <div>
-            <img src="./dist/img/cover-urievent.png" alt="cover-urievent" />
-          </div>
-          <div class="px-5 py-4">
-            <h4 class="text-lg font-extrabold py-1">URIEVENT</h4>
-            <p class="text-sm text-justify pb-2">
-              Web-based information center for event service providers. We built this website to make it easier for for-profit and non-profit organizations to find event services such as event equipment vendors, media partners, venues, and sponsorships. 
-            </p>
-            <div class="flex flex-wrap gap-1 text-xs py-2 font-bold">
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
-              >
-                CodeIgniter 4 
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
-              >
-                PHP
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
-              >
-                Bootstrap
-              </h6>
-              <h6
-                class="border border-primary py-1 px-2 rounded-sm bg-background text-primary"
-              >
-                Javascript
-              </h6>
-              <h6
-              class="border border-primary py-1 px-2 rounded-sm bg-primary text-background"
-            >
-              css 
-            </h6>
-            </div>
-          </div>
+        <div class="w-full text-center">
+          <button
+            class="shadow-md w-52 py-2 font-poppins text-background text-sm mt-8  bg-primary rounded-md font-bold md:w-96 md:py-3 md:my-6 md:text-lg  md:mt-16"
+          >
+            More
+          </button>
         </div>
-
-        <button class="font-bold text-base my-10  mx-3 py-1  px-16  text-background bg-primary rounded-md">More</button>
       </div>
-    </div>
+    </section>
+
     <!-- end of projects -->
 
     <div class="md:flex md:justify-center md:flex-row-reverse md:gap-48 m-auto">
@@ -366,7 +405,7 @@
     </div>
 
     <!-- experiences  -->
-    <section id="experiences" class="">
+    <section id="experiences">
       <div class="contents">
         <div class="flex flex-wrap justify-center">
           <div class="px-4 text-primary text-center">
@@ -478,7 +517,7 @@
       <div class="content">
         <div class="flex flex-wrap justify-center mb-10">
           <div class="px-4 text-primary text-center">
-            <h3 class="font-bold text-xl font-poppins md:text-2xl underline">
+            <h3 class="font-bold text-xl font-poppins md:text-2xl underline text-primary">
               MESSAGE
             </h3>
             <div class="flex flex-wrap justify-center text-justify pt-5">
@@ -543,7 +582,21 @@
       </div>
     </section>
     <!-- end of   form -->
-
     <!-- footer -->
+    <footer id="contact">
+      <div class="flex flex-wrap justify-center  text-background bg-primary py-4 gap-5 md:gap-10  md:py-8 ">
+            <a href="https://www.linkedin.com/in/zabina-anastasya-8b0084252/" target="_blank"> <i class="fa-brands fa-linkedin-in cursor-pointer opacity-80 hover:opacity-100 px-5md:text-2xl "></i></a>
+
+             <a href="https://github.com/zzabinaan" target="_blank"><i class="fa-brands fa-github cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a>
+             
+             <a href="https://www.instagram.com/zzabinaan/" target="_blank"><i class="fa-brands fa-instagram cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a>
+
+             <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=zzabinaan@gmail.co/" target="_blank"><i class="fa-solid fa-envelope cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a> 
+
+         <a href="https://wa.me/85655075925" target="_blank"> <i class="fa-brands fa-whatsapp cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a>
+      </div> 
+    </footer>
+
+    <script src="dist/js/script.js"></script>
   </body>
-</html>
+</html> 
