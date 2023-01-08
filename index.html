@@ -21,7 +21,7 @@
 
   <body class="bg-background">
     <header class="bg-background fixed top-0 left-0 flex items-center z-10 w-full shadow-md  ">
-      <div class=" =content w-full  font-poppins text-primary">
+      <div class=" content w-full  font-poppins text-primary">
         <div class="flex item-center justify-between relative  px-6 py-2 md:px-8 md:py-4">
           <div class="p-0">
             <a href="#home" class="font-bold block text-2xl md:text-5xl">Zz.</a>
@@ -29,7 +29,7 @@
           <div class="flex items-center">
             <button id="menu-bar" name="menu-bar" type="button" class="md:hidden"><i class="fa-solid fa-bars text-xl opacity-100"></i></button>
 
-            <nav id="nav-menu" class="hidden md:block md:static md:max-w-full text-base md:text-lg  absolute py-3  bg-background md:bg-transparent md:shadow-none shadow-lg  max-w-[150px] w-full rounded-sm right-6 top-10 md:px-5 md:py-2  ">
+            <nav id="nav-menu" class="hidden md:block md:static md:max-w-full text-base md:text-lg  absolute py-3  bg-background md:bg-transparent md:shadow-none shadow-lg  max-w-[150px] w-full rounded-sm right-6 top-10 md:px-5 md:py-0 ">
               <ul class="block md:flex">
                 <li class="group opacity-75 hover:opacity-100 px-4"><a href="#projects" class="flex py-1 ">Projects</a></li> 
                 
@@ -87,13 +87,13 @@
 
     <!-- projects -->
     <section id="projects">
-      <div class="content mt-28 pt-20 text-primary">
+      <div class="content mt-28 pt-28 text-primary">
         <h3
-          class="font-bold text-xl pl-3 md:text-2xl underline text-center"
+          class="font-bold text-xl pl-3 md:text-3xl pb-6 underline text-center"
         >
-          PROJECTS
+          MY PROJECTS
         </h3>
-        <div class="flex flex-wrap justify-center mx-4 md:gap-6">
+        <div class="flex flex-wrap justify-center mx-4 md:gap-6 md:w-100">
           <!-- umkmverse -->
           <div
             class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden max-w-md mt-4 md:mt-12 md:shadow-xl"
@@ -190,7 +190,7 @@
 
     <!-- end of projects -->
 
-    <div class="md:flex md:justify-center md:flex-row-reverse md:gap-48 m-auto">
+    <div class="md:flex md:justify-center pt-8 md:pt-24 md:flex-row-reverse md:gap-48 m-auto">
       <!-- ABOUT ME -->
       <section id="about">
         <div class="pt-44 pb-5 pr-7 pl-10 md:pt-56">
@@ -201,7 +201,7 @@
               class="shadow-lg rounded-xl px-5 py-6 absolute -translate-x-5 -translate-y-8 bg-background overflow-hidden md:-translate-x-10 about-"
             >
               <div class="w-full text-primary">
-                <h3 class="font-bold text-xl pl-3 py-2 mb-1 md:text-2xl">
+                <h3 class="font-bold text-xl pl-3 py-2 mb-1 md:text-3xl">
                   ABOUT ME.
                 </h3>
                 <div
@@ -250,11 +250,11 @@
         <div
           class="text-center text-primary px-10  pt-44  pb-5 max-w-md md:pt-28"
         >
-          <h3 class="font-bold text-xl py-1 underline md:text-2xl">
+          <h3 class="font-bold text-xl py-1 underline md:text-3xl">
             SKILL SET
           </h3>
           <div
-            class="flex flex-wrap pt-9 mb-10 justify-center py-5 gap-6 md:gap-12 md:pt-10"
+            class="flex flex-wrap pt-6 mb-10 justify-center py-5 gap-6 md:gap-12 md:pt-10"
           >
             <!-- laravel-icon -->
             <div class="bg-background p-3 rounded-xl shadow-xl text-primary">
@@ -406,27 +406,22 @@
 
     <!-- experiences  -->
     <section id="experiences">
-      <div class="contents">
-        <div class="flex flex-wrap justify-center">
-          <div class="px-4 pt-28 md:pt-36  text-primary text-center">
-            <h3 class="font-bold text-xl font-poppins md:text-2xl underline">
+      <div class="content">
+        <div class="flex flex-wrap justify-center  ">
+          <div class="px-4 pt-32 pb-8 md:pt-36  text-primary text-center">
+            <h3 class="font-bold text-xl font-poppins md:text-3xl underline">
               EXPERIENCES
             </h3>
 
             <div
-              class="flex gap-2 justify-between px-6 pt-5 md:gap-10 md:pt-8 font-montserrat"
+              class="flex gap-2 justify-center px-6 pt-5 md:gap-4 md:pt-8 font-montserrat"
             >
 
               <button 
               id="b-work"
-                class="bg-primary text-background border border-primary text-base md:text-xl px-6 py-0.5 rounded-md  md:px-10"
+                class="b-active border border-primary text-base md:text-xl px-6 py-0.5 rounded-md  md:px-10"
               >
                 Work
-              </button>
-              <button id="b-ed"
-                class="bg-background text-primary border-primary text-base md:text-xl px-6 py-0.5 border rounded-md md:px-10"
-              >
-                Education
               </button>
               <button
               id="b-ot"
@@ -440,128 +435,108 @@
               <div id="work-exp" class="">                    
                     <div class="flex gap-2 pt-6 md:pt-8 font-montserrat">
                       <div
-                        class="flex flex-wrap text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 justify-center rounded-md items-center font-montserrat"
+                        class="flex flex-wrap text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  justify-center rounded-md items-center font-montserrat"
                       >
                         Aug - Dec 2022
                       </div>
                       <div
-                        class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                        class="w-56  shadow-md   p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                       >
                         <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
                           Backend Developer
                         </h4>
-                        <h5 class="text-sm md:text-lg">
+                        <h5 class="text-sm md:text-base">
                           Social Economic Accelerator Lab
                         </h5>
                       </div>
                     </div>
                     <div class="flex gap-2 pt-6 md:pt-8 font-montserrat">
                       <div
-                        class="flex flex-wrap text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 justify-center rounded-md items-center font-montserrat"
+                        class="flex flex-wrap text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  justify-center rounded-md items-center font-montserrat"
                       >
                         Jan - Dec 2022
                       </div>
                       <div
-                        class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                        class="w-56 shadow-md  p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                       >
                         <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
                           Official Crew
                         </h4>
-                        <h5 class="text-sm md:text-lg">
+                        <h5 class="text-sm md:text-base">
                           Darmaheswara Wedding Organizer
                         </h5>
                       </div>
                     </div>
                     <div class="flex gap-2 pt-6 md:pt-8 font-montserrat">
                       <div
-                        class="flex flex-wrap text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 justify-center rounded-md items-center font-montserrat"
+                        class="flex flex-wrap text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  justify-center rounded-md items-center font-montserrat"
                       >
                         May - Dec 2021
                       </div>
                       <div
-                        class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                        class="w-56  shadow-md   p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                       >
                         <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
                           Intern Crew
                         </h4>
-                        <h5 class="text-sm md:text-lg">
+                        <h5 class="text-sm md:text-base">
                           Darmaheswara Wedding Organizer
                         </h5>
                       </div>
                     </div>
-              </div>
-              
-              <!-- education experience -->
-              <div id="ed-exp" class="hidden">                    
-                <div class="flex gap-2 pt-6 md:pt-8 font-montserrat ">
-                  <div
-                    class="flex flex-wrap justify-center text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 rounded-md items-center font-montserrat"
-                  >
-                    2020 - Now
-                  </div>
-                  <div
-                    class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
-                  >
-                    <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
-                    University Of Pembangunan Nasional "Veteran" East Java
-                    </h4>
-                    <h5 class="text-sm md:text-lg">
-                       Information System Student 
-                    </h5>
-                  </div>
-                </div>
+              </div>              
+              <!-- other exp -->
+              <div id="ot-exp" class="hidden">        
                 <div class="flex gap-2 pt-6 md:pt-8 font-montserrat">
                   <div
-                    class="flex flex-wrap justify-center text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 rounded-md items-center font-montserrat"
+                    class="flex flex-wrap justify-center text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  rounded-md items-center font-montserrat"
                   >
-                    Dec 2022
+                    2022
                   </div>
                   <div
-                    class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                    class="w-56  shadow-md   p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                   >
                     <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
-                      Amazon Web Services (AWS) Academy 
+                       Graduate In Cloud Architecting
+                       
                     </h4>
-                    <h5 class="text-sm md:text-lg">
-                      Graduate from AWS Academy Cloud Architecting
-                    </h5>
-                  </div>
-                </div>
-              </div>
+                    <h5 class="text-sm md:text-base">
+                      Amazon Web Services Academy 
 
-              <!-- other exp -->
-              <div id="ot-exp" class="hidden">                    
+                    </h5>
+                  </div>
+                </div>            
                 <div class="flex gap-2 pt-6 md:pt-8 font-montserrat ">
                   <div
-                    class="flex flex-wrap justify-center text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 rounded-md items-center font-montserrat"
+                    class="flex flex-wrap justify-center text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  rounded-md items-center font-montserrat"
                   >
-                    2022 - 2023
+                    2022
                   </div>
                   <div
-                    class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                    class="w-56  shadow-md   p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                   >
                     <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
-                      BEM FASILKOM UPN “VETERAN” JAWA Timur                      
+                      Head of Foreign Affairs                      
                     </h4>
-                    <h5 class="text-sm md:text-lg">
-                       Head of Foreign Affairs
+                    <h5 class="text-sm md:text-base">
+                       BEM FASILKOM UPNVJT
                     </h5>
                   </div>
                 </div>
                 <div class="flex gap-2 pt-6 md:pt-8 font-montserrat ">
                   <div
-                    class="flex flex-wrap justify-center text-sm w-1/4 shadow-md p-3 md:text-lg md:px-4 md:w-1\/6 rounded-md items-center font-montserrat"
+                    class="flex flex-wrap justify-center text-sm w-20 shadow-md p-3 md:text-base md:px-4 md:w-28  rounded-md items-center font-montserrat"
                   >
-                    2021 - 2022
+                    2021
                   </div>
                   <div
-                    class="w-3/4 shadow-md p-3 text-justify md:px-6 md:py-4 md:w-5/6 rounded-md"
+                    class="w-56  shadow-md   p-3 text-justify md:px-6 md:py-4 md:w-96  rounded-md"
                   >
                     <h4 class="font-montserrat text-sm font-extrabold md:text-lg">
-                      BEM FASILKOM UPN “VETERAN” JAWA Timur                      
+                       Member of Foreign Affairs                    
                     </h4>
-                    <h5 class="text-sm md:text-lg">
-                       Member of Foreign Affairs
+                    <h5 class="text-sm md:text-base">
+                       BEM FASILKOM UPNVJT
                     </h5>
                   </div>
                 </div>
@@ -580,7 +555,7 @@
       <div class="content">
         <div class="flex flex-wrap justify-center mb-10 md:mb-20 pt-10 pb-20">
           <div class="px-4 text-primary text-center">
-            <h3 class="font-bold text-xl font-poppins md:text-2xl underline text-primary pt-10 pb-2 
+            <h3 class="font-bold text-xl font-poppins md:text-4xl underline text-primary pt-10 pb-2 
             md:pb-6"> 
               MESSAGE
             </h3>
@@ -648,8 +623,8 @@
     <!-- end of   form -->
     <!-- footer -->
     <footer id="contact">
-      <div class="flex flex-wrap justify-center  text-background bg-primary py-4 gap-5 md:gap-10  md:py-8 ">
-            <a href="https://www.linkedin.com/in/zabina-anastasya-8b0084252/" target="_blank"> <i class="fa-brands fa-linkedin-in cursor-pointer opacity-80 hover:opacity-100 px-5md:text-2xl "></i></a>
+      <div class="flex flex-wrap justify-center  text-background bg-primary py-4 gap-5 md:gap-10  md:py-6  ">
+            <a href="https://www.linkedin.com/in/zabina-anastasya-8b0084252/" target="_blank"> <i class="fa-brands fa-linkedin-in cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a>
 
              <a href="https://github.com/zzabinaan" target="_blank"><i class="fa-brands fa-github cursor-pointer opacity-80 hover:opacity-100 md:text-2xl "></i></a>
              
