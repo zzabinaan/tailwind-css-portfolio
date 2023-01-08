@@ -1,8 +1,10 @@
 const menuBar = document.querySelector("#menu-bar");
 const navMenu = document.querySelector("#nav-menu");
 const bWork = document.querySelector("#b-work");
+const bEd = document.querySelector("#b-ed");
 const bOt = document.querySelector("#b-ot");
 const workExp = document.querySelector("#work-exp");
+const edExp = document.querySelector("#ed-exp");
 const otExp = document.querySelector("#ot-exp");
 
 menuBar.addEventListener("click", function () {
@@ -11,18 +13,18 @@ menuBar.addEventListener("click", function () {
 });
 
 bWork.addEventListener("click", function () {
-  bWork.classList.add("b-active");
-  bOt.classList.remove("b-active");
-
   workExp.classList.remove("hidden");
+  edExp.classList.add("hidden");
+  otExp.classList.add("hidden");
+});
+bEd.addEventListener("click", function () {
+  workExp.classList.add("hidden");
+  edExp.classList.remove("hidden");
   otExp.classList.add("hidden");
 });
 
 bOt.addEventListener("click", function () {
-  
-  bWork.classList.remove("b-active");
-  bOt.classList.add("b-active");
-
   workExp.classList.add("hidden");
+  edExp.classList.add("hidden");
   otExp.classList.remove("hidden");
 });

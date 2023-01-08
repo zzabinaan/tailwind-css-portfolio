@@ -12,10 +12,6 @@
   opacity: 50%;
 }
 
-.b-active{
-  background-color: #524F62;
-  color: #fafafa;
-}
 @media screen and (min-width: 768px) {
   .about-ring {
     width: 25rem;

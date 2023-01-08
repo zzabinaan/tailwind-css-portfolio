@@ -598,10 +598,21 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-0\.5 {
+  margin-bottom: 0.125rem;
+}
+
+<<<<<<< HEAD
+=======
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
+>>>>>>> parent of 94f79ba (change experiences])
 .block {
   display: block;
 }
@@ -622,6 +633,38 @@ video {
   height: 1.75rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -634,12 +677,21 @@ video {
   width: 9rem;
 }
 
+<<<<<<< HEAD
 .w-20 {
   width: 5rem;
 }
 
 .w-56 {
   width: 14rem;
+=======
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-3\/4 {
+  width: 75%;
+>>>>>>> parent of 94f79ba (change experiences])
 }
 
 .w-72 {
@@ -654,6 +706,13 @@ video {
   max-width: 28rem;
 }
 
+<<<<<<< HEAD
+=======
+.max-w-sm {
+  max-width: 24rem;
+}
+
+>>>>>>> parent of 94f79ba (change experiences])
 .-translate-x-5 {
   --tw-translate-x: -1.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -672,8 +731,16 @@ video {
   flex-wrap: wrap;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -704,6 +771,17 @@ video {
   gap: 1.25rem;
 }
 
+<<<<<<< HEAD
+=======
+.self-auto {
+  align-self: auto;
+}
+
+.self-center {
+  align-self: center;
+}
+
+>>>>>>> parent of 94f79ba (change experiences])
 .overflow-hidden {
   overflow: hidden;
 }
@@ -759,9 +837,15 @@ video {
   padding: 0.75rem;
 }
 
+<<<<<<< HEAD
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+=======
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+>>>>>>> parent of 94f79ba (change experiences])
 }
 
 .py-2 {
@@ -772,11 +856,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-1 {
@@ -829,6 +908,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-0\.5 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
@@ -867,6 +951,7 @@ video {
   padding-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
 .pt-8 {
   padding-top: 2rem;
 }
@@ -875,6 +960,8 @@ video {
   padding-top: 11rem;
 }
 
+=======
+>>>>>>> parent of 94f79ba (change experiences])
 .pr-7 {
   padding-right: 1.75rem;
 }
@@ -891,6 +978,7 @@ video {
   padding-top: 0.75rem;
 }
 
+<<<<<<< HEAD
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -901,6 +989,14 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+=======
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
+>>>>>>> parent of 94f79ba (change experiences])
 }
 
 .pt-5 {
@@ -911,8 +1007,13 @@ video {
   padding-bottom: 5rem;
 }
 
+<<<<<<< HEAD
 .pt-10 {
   padding-top: 2.5rem;
+=======
+.pt-6 {
+  padding-top: 1.5rem;
+>>>>>>> parent of 94f79ba (change experiences])
 }
 
 .pb-1 {
@@ -923,12 +1024,59 @@ video {
   padding-bottom: 0.625rem;
 }
 
+<<<<<<< HEAD
+=======
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+>>>>>>> parent of 94f79ba (change experiences])
 .text-center {
   text-align: center;
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-poppins {
@@ -1044,11 +1192,6 @@ video {
   opacity: 50%;
 }
 
-.b-active{
-  background-color: #524F62;
-  color: #fafafa;
-}
-
 @media screen and (min-width: 768px) {
   .about-ring {
     width: 25rem;
@@ -1116,14 +1259,17 @@ video {
     margin-top: 4rem;
   }
 
-  .md\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
 
+<<<<<<< HEAD
+=======
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+>>>>>>> parent of 94f79ba (change experiences])
   .md\:block {
     display: block;
   }
@@ -1168,6 +1314,17 @@ video {
     width: 100%;
   }
 
+<<<<<<< HEAD
+=======
+  .md\:w-2 {
+    width: 0.5rem;
+  }
+
+  .md\:w-9 {
+    width: 2.25rem;
+  }
+
+>>>>>>> parent of 94f79ba (change experiences])
   .md\:max-w-full {
     max-width: 100%;
   }
@@ -1203,10 +1360,6 @@ video {
 
   .md\:gap-12 {
     gap: 3rem;
-  }
-
-  .md\:gap-4 {
-    gap: 1rem;
   }
 
   .md\:gap-10 {
@@ -1290,9 +1443,15 @@ video {
     padding-right: 1.5rem;
   }
 
+<<<<<<< HEAD
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+=======
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+>>>>>>> parent of 94f79ba (change experiences])
   }
 
   .md\:pt-56 {
@@ -1323,16 +1482,8 @@ video {
     padding-top: 2.5rem;
   }
 
-  .md\:pt-36 {
-    padding-top: 9rem;
-  }
-
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pb-6 {
-    padding-bottom: 1.5rem;
   }
 
   .md\:pb-2\.5 {
@@ -1347,6 +1498,25 @@ video {
     padding-top: 1.5rem;
   }
 
+<<<<<<< HEAD
+=======
+  .md\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+>>>>>>> parent of 94f79ba (change experiences])
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1377,11 +1547,14 @@ video {
     font-size: 0.65rem;
   }
 
+<<<<<<< HEAD
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
+=======
+>>>>>>> parent of 94f79ba (change experiences])
   .md\:text-background {
     --tw-text-opacity: 1;
     color: rgb(250 250 250 / var(--tw-text-opacity));

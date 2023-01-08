@@ -18,7 +18,6 @@ module.exports = {
         lg: "1rem",
         xl: "1.3rem",
         "2xl": "1.65rem",
-        "custom":"0.7rem"
       },
     },
   },
