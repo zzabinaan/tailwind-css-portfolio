@@ -557,9 +557,18 @@ video {
   margin: auto;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mt-8 {
@@ -829,6 +838,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .py-0\.5 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
@@ -1044,8 +1058,8 @@ video {
   opacity: 50%;
 }
 
-.b-active{
-  background-color: #524F62;
+.b-active {
+  background-color: #524f62;
   color: #fafafa;
 }
 
