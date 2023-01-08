@@ -1116,10 +1116,6 @@ video {
     margin-top: 4rem;
   }
 
-  .md\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1329,6 +1325,10 @@ video {
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:pb-6 {
