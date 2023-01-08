@@ -16,6 +16,12 @@
   background-color: #524f62;
   color: #fafafa;
 }
+
+.b-active-1{
+  background-color: #fafafa;
+  color: #524f62;
+}
+
 @media screen and (min-width: 768px) {
   .about-ring {
     width: 25rem;

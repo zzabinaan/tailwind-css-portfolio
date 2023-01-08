@@ -92,15 +92,39 @@
     <section id="projects">
       <div class="mt-28 pt-28 text-primary">
         <h3
-          class="font-bold text-xl pl-3 md:text-3xl pb-6 underline text-center"
+          class="font-bold text-xl md:text-3xl pb-6 underline text-center"
         >
           MY PROJECTS
         </h3>
-        <div class="flex flex-wrap justify-center mx-4 md:gap-6 md:w-100">
+        <div class="flex flex-wrap justify-center md:gap-6 md:w-100 px-8">
           <!-- umkmverse -->
-          <div
-            class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden max-w-md mt-4 md:mt-12 md:shadow-xl"
+          <div id="card-umkmverse"
+            class="project-cont shadow-lg pb-5 font-montserrat text-primary rounded-lg overflow-hidden max-w-md mt-4 md:mt-12 md:shadow-xl relative" onmouseover="overlayUmkm()" onmouseleave="hideoverlayUmkm()" 
           >
+            <div class="hidden w-full h-full bg-black absolute opacity-50" id="overlay-umkmverse">          
+            </div>
+
+            <div class="hidden absolute w-full h-full justify-center translate-y-36 md:translate-y-52" id="overlay-umkmverse2">
+              <div class="flex flex-wrap gap-8 justify-center opacity-100 absolute ">
+                <button  class="  text-background border-4 font-bold border-background hover:bg-background hover:text-primary">
+                  <a href="https://umkmverse.tk/" target="_blank" class="flex gap-4 px-8 py-2" >
+                   <i class="fa-brands fa-github text-2xl "></i>    
+                   <h6 class="md:text-xl">View Source</h6>    
+                </a>                       
+                </button> 
+                <button class="  text-background border-4 font-bold border-background hover:bg-background hover:text-primary">
+                  <a href="https://umkmverse.tk/" target="_blank" class="flex gap-4 px-8 py-2" >
+                   <i class="fa-solid fa-share text-xl md:text-2xl"></i>    
+                   <h6 class="md:text-xl">Visit Website</h6>    
+                </a>                       
+                </button>
+                
+
+              </div>
+            </div>
+
+          
+
             <div>
               <img src="./dist/img/cover-umkmverse.png" alt="cover-umkmverse" />
             </div>
@@ -137,9 +161,31 @@
           </div>
 
           <!-- Urievent -->
-          <div
-            class="project-cont shadow-lg mr-5 ml-7 pb-5 font-montserrat text-primary rounded-lg overflow-hidden mt-12 max-w-md  md:shadow-xl"
-       m: shadow-xl    >
+          <div id="card-urievent"
+            class="project-cont shadow-lgpb-5 font-montserrat text-primary rounded-lg overflow-hidden mt-12 max-w-md  md:shadow-xl relative"   onmouseover="overlayUrievent()" onmouseleave="hideoverlayUrievent()">
+
+            <div class="hidden w-full h-full bg-black absolute opacity-50" id="overlay-urievent">          
+            </div>
+
+            <div class="hidden absolute w-full h-full justify-center translate-y-36 md:translate-y-52" id="overlay-urievent2">
+              <div class="flex flex-wrap gap-8 justify-center opacity-100 absolute ">
+                <button  class="  text-background border-4 font-bold border-background hover:bg-background hover:text-primary">
+                  <a href="https://github.com/zzabinaan/urievent.io" target="_blank" class="flex gap-4 px-8 py-2" >
+                   <i class="fa-brands fa-github text-2xl "></i>    
+                   <h6 class="md:text-xl">View Source</h6>    
+                </a>                       
+                </button> 
+                <button class="text-background border-4 font-bold border-background hover:bg-background hover:text-primary">
+                  <a href="https://umkmverse.tk/" target="_blank" class="flex gap-4 px-8 py-2" >
+                   <i class="fa-solid fa-share text-xl md:text-2xl"></i>    
+                   <h6 class="md:text-xl">Visit Website</h6>    
+                </a>                       
+                </button>
+                
+
+              </div>
+            </div>
+
             <div>
               <img src="./dist/img/cover-urievent.png" alt="cover-urievent" />
             </div>
@@ -410,8 +456,8 @@
     <!-- experiences  -->
     <section id="experiences">
       <div class="">
-        <div class="flex  justify-center">
-          <div class="px-0 mx-3 pt-32 pb-8 md:pt-36  text-primary text-center">
+        <div class="flex justify-center">
+          <div class="px-3 pt-32 pb-8 md:pt-36  text-primary text-center">
             <h3 class="font-bold text-xl font-poppins md:text-3xl underline">
               EXPERIENCES
             </h3>
@@ -605,7 +651,7 @@
                       required
                       name="msg"
                       id="msg"
-                      class="shadow-md font-poppins text-primary text-sm px-2 py-2 rounded-md w-72 h-18    md:h-40 msg-text md:text-base"
+                      class="shadow-md font-poppins text-primary text-sm px-2 py-2 rounded-md w-72 h-24 md:h-40 msg-text md:text-base"
                     ></textarea>
                   </div>
                 </div>
