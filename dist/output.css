@@ -725,10 +725,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1114,6 +1110,15 @@ video {
   color: #524f62;
 }
 
+.text-xxs {
+  font-size: 0.5rem;
+}
+
+.text-date {
+  font-size: 0.58rem;
+  line-height: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   .about-ring {
     width: 25rem;
@@ -1288,10 +1293,6 @@ video {
     gap: 1rem;
   }
 
-  .md\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .md\:rounded-xl {
     border-radius: 0.75rem;
   }
@@ -1463,6 +1464,22 @@ video {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:leading-4 {
+    line-height: 1rem;
+  }
+
+  .md\:leading-5 {
+    line-height: 1.25rem;
+  }
+
+  .md\:leading-6 {
+    line-height: 1.5rem;
+  }
+
+  .md\:leading-7 {
+    line-height: 1.75rem;
   }
 
   .md\:text-background {
