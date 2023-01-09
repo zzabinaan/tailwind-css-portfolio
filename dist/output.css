@@ -934,16 +934,12 @@ video {
   padding-top: 0.75rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-5 {
@@ -972,14 +968,6 @@ video {
 
 .pb-2\.5 {
   padding-bottom: 0.625rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
 }
 
 .text-center {
