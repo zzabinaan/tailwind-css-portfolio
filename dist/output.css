@@ -557,14 +557,6 @@ video {
   margin: auto;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
-.-m-2 {
-  margin: -0.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -731,6 +723,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-hidden {
@@ -954,6 +950,14 @@ video {
   padding-bottom: 5rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -986,8 +990,9 @@ video {
   font-family: "Montserrat", sans-serif;
 }
 
-.text-2xl {
-  font-size: 1.65rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-xl {
@@ -996,6 +1001,10 @@ video {
 
 .text-base {
   font-size: 0.8rem;
+}
+
+.text-2xl {
+  font-size: 1.65rem;
 }
 
 .text-lg {
@@ -1010,12 +1019,12 @@ video {
   font-size: 0.4rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-semibold {
@@ -1100,7 +1109,7 @@ video {
   color: #fafafa;
 }
 
-.b-active-1{
+.b-active-1 {
   background-color: #fafafa;
   color: #524f62;
 }
@@ -1117,6 +1126,10 @@ video {
 
   .msg-text {
     width: 30rem;
+  }
+
+  .w-99 {
+    width: 34rem;
   }
 }
 
@@ -1255,6 +1268,10 @@ video {
     gap: 1.5rem;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .md\:gap-2 {
     gap: 0.5rem;
   }
@@ -1271,8 +1288,8 @@ video {
     gap: 1rem;
   }
 
-  .md\:gap-10 {
-    gap: 2.5rem;
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:rounded-xl {

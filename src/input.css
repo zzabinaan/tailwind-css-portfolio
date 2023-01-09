@@ -17,7 +17,7 @@
   color: #fafafa;
 }
 
-.b-active-1{
+.b-active-1 {
   background-color: #fafafa;
   color: #524f62;
 }
@@ -33,5 +33,8 @@
 
   .msg-text {
     width: 30rem;
+  }
+  .w-99 {
+    width: 34rem;
   }
 }
