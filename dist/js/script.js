@@ -9,6 +9,14 @@ const cUmkmverse = document.querySelector("#card-umkmverse");
 const overlayUmkmverse = document.querySelector("#overlay-umkmverse");
 const overlayUmkmverse2 = document.querySelector("#overlay-umkmverse2");
 
+const cdonora = document.querySelector("#card-donora");
+const overlaydonora = document.querySelector("#overlay-donora");
+const overlaydonora2 = document.querySelector("#overlay-donora2");
+
+const cKursusOnline = document.querySelector("#card-kursusOnline");
+const overlaykursusOnline = document.querySelector("#overlay-kursusOnline");
+const overlaykursusOnline2 = document.querySelector("#overlay-kursusOnline2");
+
 const cSmackMouse = document.querySelector("#card-smack-mouse");
 const overlaySmackMouse = document.querySelector("#overlay-smack-mouse");
 const overlaySmackMouse2 = document.querySelector("#overlay-smack-mouse2");
@@ -20,6 +28,7 @@ const overlayurievent2 = document.querySelector("#overlay-urievent2");
 const cPortofolio = document.querySelector("#card-portofolio");
 const overlayportofolio = document.querySelector("#overlay-portofolio");
 const overlayportofolio2 = document.querySelector("#overlay-portofolio2");
+
 const bShow = document.querySelector("#b-show-more");
 const bLess = document.querySelector("#b-show-less");
 
@@ -31,6 +40,26 @@ function overlayUmkm() {
 function hideoverlayUmkm() {
   overlayUmkmverse.classList.add("hidden");
   overlayUmkmverse2.classList.add("hidden");
+}
+
+function overlayDonora() {
+  overlaydonora.classList.remove("hidden");
+  overlaydonora2.classList.remove("hidden");
+}
+
+function hideoverlayDonora() {
+  overlaydonora.classList.add("hidden");
+  overlaydonora2.classList.add("hidden");
+}
+
+function overlayKursusOnline() {
+  overlaykursusOnline.classList.remove("hidden");
+  overlaykursusOnline2.classList.remove("hidden");
+}
+
+function hideoverlayKursusOnline() {
+  overlaykursusOnline.classList.add("hidden");
+  overlaykursusOnline2.classList.add("hidden");
 }
 
 function overlayUrievent() {
